@@ -119,6 +119,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRedstoneOn": {
+      "name": "ArcfurnesRedstoneOn"
+    },
+    "onRedstoneOff": {
+      "name": "ArcfurnesRedstoneOff"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

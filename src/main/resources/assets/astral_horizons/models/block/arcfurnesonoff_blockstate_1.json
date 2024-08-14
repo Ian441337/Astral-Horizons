@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "astral_horizons:block/arc_furnes_bottom",
+    "up": "astral_horizons:block/arc_furnes_top",
+    "north": "astral_horizons:block/arc_furnes_activ",
+    "east": "astral_horizons:block/arc_furnes_side",
+    "south": "astral_horizons:block/arc_furnes_side",
+    "west": "astral_horizons:block/arc_furnes_side",
+    "particle": "astral_horizons:block/arc_furnes_bottom"
+  },
+  "render_type": "solid"
+}

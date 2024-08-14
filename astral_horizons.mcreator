@@ -154,6 +154,85 @@
         ]
       },
       "path": "~/mashins"
+    },
+    {
+      "name": "Arcfurnesonoff",
+      "type": "blockstates",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcfurnesonoff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astral_horizons/models/block/arcfurnesonoff_blockstate_0.json",
+          "src/main/resources/assets/astral_horizons/models/block/arcfurnesonoff_blockstate_1.json"
+        ]
+      },
+      "path": "~/mashins"
+    },
+    {
+      "name": "ArcfurnesRedstoneOn",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcfurnes_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/astralhorizons/procedures/ArcfurnesRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mashins"
+    },
+    {
+      "name": "ArcfurnesRedstoneOff",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcfurnes_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/astralhorizons/procedures/ArcfurnesRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mashins"
     }
   ],
   "variable_elements": [],
