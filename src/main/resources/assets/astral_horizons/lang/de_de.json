@@ -1,8 +1,8 @@
 {
   "block.astral_horizons.itemcreativetab": "itemcreativmap",
   "biome.astral_horizons.moonland": "Moonland",
-  "block.astral_horizons.moonsand": "Moon sand",
-  "block.astral_horizons.moonstone": "Moon stone",
+  "block.astral_horizons.moonsand": "Mond sand",
+  "block.astral_horizons.moonstone": "Mond stein",
   "item_group.astral_horizons.astral_horizons": "Astral Horizons",
-  "block.astral_horizons.moondeepslate": "Moon deepslate"
+  "block.astral_horizons.moondeepslate": "Mond tiefenschiefer"
 }

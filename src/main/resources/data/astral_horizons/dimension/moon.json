@@ -6,7 +6,7 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "plains",
+          "biome": "astral_horizons:moonland",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
@@ -30,7 +30,7 @@
         "Name": "astral_horizons:moonstone"
       },
       "default_fluid": {
-        "Name": "minecraft:ice"
+        "Name": "minecraft:air"
       },
       "spawn_target": [],
       "noise": {
@@ -380,7 +380,7 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "plains"
+                "astral_horizons:moonland"
               ]
             },
             "then_run": {
@@ -414,17 +414,14 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minecraft:grass_block",
-                              "Properties": {
-                                "snowy": "false"
-                              }
+                              "Name": "astral_horizons:moonsand"
                             }
                           }
                         },
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minecraft:gravel"
+                            "Name": "astral_horizons:moonstone"
                           }
                         }
                       ]
@@ -442,7 +439,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minecraft:dirt"
+                        "Name": "astral_horizons:moonstone"
                       }
                     }
                   }

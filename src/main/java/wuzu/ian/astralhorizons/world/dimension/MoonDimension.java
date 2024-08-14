@@ -26,7 +26,7 @@ public class MoonDimension {
 
 				@Override
 				public boolean isFoggyAt(int x, int y) {
-					return true;
+					return false;
 				}
 			};
 			event.register(new ResourceLocation("astral_horizons:moon"), customEffect);

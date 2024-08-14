@@ -21,7 +21,7 @@ import java.util.Collections;
 
 public class MoondeepslateBlock extends Block {
 	public MoondeepslateBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).mapColor(MapColor.STONE).sound(SoundType.STONE).strength(2f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).mapColor(MapColor.DEEPSLATE).sound(SoundType.DEEPSLATE).strength(2f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override

@@ -4,7 +4,7 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "plains"
+        "value": "CUSTOM:Moonland"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -12,15 +12,15 @@
       "value": "CUSTOM:Moonstone"
     },
     "fluidBlock": {
-      "value": "Blocks.ICE"
+      "value": "Blocks.AIR"
     },
     "airColor": {
       "value": -13421773,
       "falpha": 0.0
     },
     "canRespawnHere": true,
-    "hasFog": true,
-    "isDark": false,
+    "hasFog": false,
+    "isDark": true,
     "doesWaterVaporize": true,
     "sleepResult": "ALLOW",
     "hasSkyLight": true,
