@@ -186,6 +186,21 @@
         ]
       },
       "path": "~/mashins"
+    },
+    {
+      "name": "ArcFurnace",
+      "type": "gui",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arc_furnace",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/astralhorizons/client/gui/ArcFurnaceScreen.java",
+          "src/main/java/wuzu/ian/astralhorizons/world/inventory/ArcFurnaceMenu.java"
+        ]
+      },
+      "path": "~/mashins"
     }
   ],
   "variable_elements": [],
@@ -194,6 +209,7 @@
     "en_us": {
       "block.astral_horizons.itemcreativetab": "itemcreativmap",
       "biome.astral_horizons.moonland": "Moonland",
+      "gui.astral_horizons.arc_furnace.label_empty": "Arc Furnase",
       "block.astral_horizons.moonsand": "Moon sand",
       "block.astral_horizons.arcfurnes": "Arc Furnes",
       "block.astral_horizons.moonstone": "Moon stone",
@@ -203,6 +219,7 @@
     "de_de": {
       "block.astral_horizons.itemcreativetab": "itemcreativmap",
       "biome.astral_horizons.moonland": "Moonland",
+      "gui.astral_horizons.arc_furnace.label_empty": "Arc Furnase",
       "block.astral_horizons.moonsand": "Mond sand",
       "block.astral_horizons.arcfurnes": "Arcfurnes",
       "block.astral_horizons.moonstone": "Mond stein",

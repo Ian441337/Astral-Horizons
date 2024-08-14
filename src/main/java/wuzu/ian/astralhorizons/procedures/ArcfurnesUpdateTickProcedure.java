@@ -38,7 +38,7 @@ public class ArcfurnesUpdateTickProcedure {
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 				return _retval.get();
 			}
-		}.getAmount(world, BlockPos.containing(x, y, z), 2) == 0) && productionticks == 0) {
+		}.getAmount(world, BlockPos.containing(x, y, z), 0) == 0) && productionticks == 0) {
 			{
 				int _value = 1;
 				BlockPos _pos = BlockPos.containing(x, y, z);
@@ -71,11 +71,11 @@ public class ArcfurnesUpdateTickProcedure {
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 				return _retval.get();
 			}
-		}.getAmount(world, BlockPos.containing(x, y, z), 2) > 0 && productionticks == 0) {
+		}.getAmount(world, BlockPos.containing(x, y, z), 0) > 0 && productionticks == 0) {
 			{
 				BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 				if (_ent != null) {
-					final int _slotid = 1;
+					final int _slotid = 0;
 					final int _amount = 1;
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {
@@ -89,7 +89,7 @@ public class ArcfurnesUpdateTickProcedure {
 			{
 				BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 				if (_ent != null) {
-					final int _slotid = 2;
+					final int _slotid = 1;
 					final int _amount = 1;
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {

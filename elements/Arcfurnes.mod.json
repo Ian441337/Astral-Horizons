@@ -103,7 +103,7 @@
     "breakHarvestLevel": 2,
     "isBonemealable": false,
     "hasInventory": true,
-    "guiBoundTo": "<NONE>",
+    "guiBoundTo": "ArcFurnace",
     "openGUIOnRightClick": true,
     "inventorySize": 9,
     "inventoryStackSize": 64,

@@ -14,6 +14,7 @@
 package wuzu.ian.astralhorizons;
 
 import wuzu.ian.astralhorizons.init.AstralHorizonsModTabs;
+import wuzu.ian.astralhorizons.init.AstralHorizonsModMenus;
 import wuzu.ian.astralhorizons.init.AstralHorizonsModItems;
 import wuzu.ian.astralhorizons.init.AstralHorizonsModBlocks;
 import wuzu.ian.astralhorizons.init.AstralHorizonsModBlockEntities;
@@ -58,6 +59,7 @@ public class AstralHorizonsMod {
 
 		AstralHorizonsModTabs.REGISTRY.register(bus);
 
+		AstralHorizonsModMenus.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
