@@ -121,39 +121,6 @@
         ]
       },
       "path": "~/moon"
-    },
-    {
-      "name": "MoonFlag",
-      "type": "block",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "moon_flag",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/astralhorizons/block/MoonFlagBlock.java",
-          "src/main/resources/assets/astral_horizons/blockstates/moon_flag.json",
-          "src/main/resources/assets/astral_horizons/models/block/moon_flag.json",
-          "src/main/resources/assets/astral_horizons/models/item/moon_flag.json"
-        ]
-      },
-      "path": "~/moon"
-    },
-    {
-      "name": "Asmallstepformeandabigstepforhumanity",
-      "type": "structure",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "asmallstepformeandabigstepforhumanity",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/astral_horizons/worldgen/structure_set/asmallstepformeandabigstepforhumanity.json",
-          "src/main/resources/data/astral_horizons/worldgen/template_pool/asmallstepformeandabigstepforhumanity.json",
-          "src/main/resources/data/astral_horizons/worldgen/structure/asmallstepformeandabigstepforhumanity.json"
-        ]
-      },
-      "path": "~/moon"
     }
   ],
   "variable_elements": [],
@@ -161,7 +128,6 @@
   "language_map": {
     "en_us": {
       "block.astral_horizons.itemcreativetab": "itemcreativmap",
-      "block.astral_horizons.moon_flag": "Moon Flag",
       "biome.astral_horizons.moonland": "Moonland",
       "block.astral_horizons.moonsand": "Moon sand",
       "block.astral_horizons.moonstone": "Moon stone",
@@ -170,7 +136,6 @@
     },
     "de_de": {
       "block.astral_horizons.itemcreativetab": "itemcreativmap",
-      "block.astral_horizons.moon_flag": "Moon Flag",
       "biome.astral_horizons.moonland": "Moonland",
       "block.astral_horizons.moonsand": "Mond sand",
       "block.astral_horizons.moonstone": "Mond stein",

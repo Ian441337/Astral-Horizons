@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "astral_horizons:moonstone",
-    "astral_horizons:moondeepslate",
-    "astral_horizons:moon_flag"
+    "astral_horizons:moondeepslate"
   ]
 }

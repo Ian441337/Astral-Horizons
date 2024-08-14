@@ -21,7 +21,6 @@ public class AstralHorizonsModTabs {
 				tabData.accept(AstralHorizonsModBlocks.MOONSTONE.get().asItem());
 				tabData.accept(AstralHorizonsModBlocks.MOONSAND.get().asItem());
 				tabData.accept(AstralHorizonsModBlocks.MOONDEEPSLATE.get().asItem());
-				tabData.accept(AstralHorizonsModBlocks.MOON_FLAG.get().asItem());
 			})
 
 					.build());
