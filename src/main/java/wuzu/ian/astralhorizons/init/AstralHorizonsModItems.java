@@ -4,6 +4,7 @@
  */
 package wuzu.ian.astralhorizons.init;
 
+import wuzu.ian.astralhorizons.item.SteelingotItem;
 import wuzu.ian.astralhorizons.AstralHorizonsMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -21,6 +22,7 @@ public class AstralHorizonsModItems {
 	public static final RegistryObject<Item> ITEMCREATIVETAB = block(AstralHorizonsModBlocks.ITEMCREATIVETAB);
 	public static final RegistryObject<Item> MOONDEEPSLATE = block(AstralHorizonsModBlocks.MOONDEEPSLATE);
 	public static final RegistryObject<Item> ARCFURNES = block(AstralHorizonsModBlocks.ARCFURNES);
+	public static final RegistryObject<Item> STEELINGOT = REGISTRY.register("steelingot", () -> new SteelingotItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

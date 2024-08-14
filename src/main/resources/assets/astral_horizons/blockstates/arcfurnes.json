@@ -29,21 +29,6 @@
     "facing=west,blockstate=1": {
       "model": "astral_horizons:block/arcfurnesonoff_blockstate_0",
       "y": 270
-    },
-    "facing=north,blockstate=2": {
-      "model": "astral_horizons:block/arcfurnesonoff_blockstate_1"
-    },
-    "facing=east,blockstate=2": {
-      "model": "astral_horizons:block/arcfurnesonoff_blockstate_1",
-      "y": 90
-    },
-    "facing=south,blockstate=2": {
-      "model": "astral_horizons:block/arcfurnesonoff_blockstate_1",
-      "y": 180
-    },
-    "facing=west,blockstate=2": {
-      "model": "astral_horizons:block/arcfurnesonoff_blockstate_1",
-      "y": 270
     }
   }
 }

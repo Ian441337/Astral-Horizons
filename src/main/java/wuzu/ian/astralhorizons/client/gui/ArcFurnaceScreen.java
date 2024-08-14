@@ -68,7 +68,6 @@ public class ArcFurnaceScreen extends AbstractContainerScreen<ArcFurnaceMenu> {
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.astral_horizons.arc_furnace.label_empty"), 64, 3, -12829636, false);
 	}
 
 	@Override

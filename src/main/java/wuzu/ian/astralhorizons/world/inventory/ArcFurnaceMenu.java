@@ -10,7 +10,6 @@ import net.minecraftforge.common.capabilities.ForgeCapabilities;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.inventory.ContainerLevelAccess;
@@ -80,19 +79,9 @@ public class ArcFurnaceMenu extends AbstractContainerMenu implements Supplier<Ma
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 83, 48) {
 			private final int slot = 0;
-
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return Items.IRON_INGOT == stack.getItem();
-			}
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 84, 19) {
 			private final int slot = 1;
-
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return Items.COAL == stack.getItem();
-			}
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 49, 51) {
 			private final int slot = 2;

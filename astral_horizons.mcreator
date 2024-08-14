@@ -149,8 +149,7 @@
       "registry_name": "arcfurnesonoff",
       "metadata": {
         "files": [
-          "src/main/resources/assets/astral_horizons/models/block/arcfurnesonoff_blockstate_0.json",
-          "src/main/resources/assets/astral_horizons/models/block/arcfurnesonoff_blockstate_1.json"
+          "src/main/resources/assets/astral_horizons/models/block/arcfurnesonoff_blockstate_0.json"
         ]
       },
       "path": "~/mashins/arc furnece"
@@ -201,6 +200,53 @@
         ]
       },
       "path": "~/mashins/arc furnece"
+    },
+    {
+      "name": "Steelingot",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelingot",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/astralhorizons/item/SteelingotItem.java",
+          "src/main/resources/assets/astral_horizons/models/item/steelingot.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Rezepisteel",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rezepisteel",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/astralhorizons/procedures/RezepisteelProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mashins/arc furnece"
     }
   ],
   "variable_elements": [],
@@ -214,6 +260,7 @@
       "block.astral_horizons.arcfurnes": "Arc Furnes",
       "block.astral_horizons.moonstone": "Moon stone",
       "item_group.astral_horizons.astral_horizons": "Astral Horizons",
+      "item.astral_horizons.steelingot": "Steelingot",
       "block.astral_horizons.moondeepslate": "Moon deepslate"
     },
     "de_de": {
@@ -224,6 +271,7 @@
       "block.astral_horizons.arcfurnes": "Arcfurnes",
       "block.astral_horizons.moonstone": "Mond stein",
       "item_group.astral_horizons.astral_horizons": "Astral Horizons",
+      "item.astral_horizons.steelingot": "Steelingot",
       "block.astral_horizons.moondeepslate": "Mond tiefenschiefer"
     }
   },
@@ -246,6 +294,14 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "items",
+        "children": []
+      },
+      {
+        "name": "jei",
+        "children": []
       }
     ]
   },
@@ -265,7 +321,8 @@
     "mcreatorDependencies": [
       "world_edit",
       "use_compiled_mods",
-      "geckolib"
+      "geckolib",
+      "jei"
     ],
     "currentGenerator": "forge-1.20.1",
     "credits": "HI",

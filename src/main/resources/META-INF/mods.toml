@@ -38,4 +38,10 @@ description="Astral Horizons is an exciting Minecraft mod that takes players on 
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
+[[dependencies.astral_horizons]]
+    modId="jei"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

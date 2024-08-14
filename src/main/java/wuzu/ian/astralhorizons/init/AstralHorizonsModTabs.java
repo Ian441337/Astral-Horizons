@@ -22,6 +22,7 @@ public class AstralHorizonsModTabs {
 				tabData.accept(AstralHorizonsModBlocks.MOONSAND.get().asItem());
 				tabData.accept(AstralHorizonsModBlocks.MOONDEEPSLATE.get().asItem());
 				tabData.accept(AstralHorizonsModBlocks.ARCFURNES.get().asItem());
+				tabData.accept(AstralHorizonsModItems.STEELINGOT.get());
 			})
 
 					.build());

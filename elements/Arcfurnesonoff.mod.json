@@ -8,26 +8,13 @@
         "texture": "arc_furnes_bottom",
         "textureTop": "arc_furnes_top",
         "textureLeft": "arc_furnes_side",
-        "textureFront": "arc_furnes_inactiv",
-        "textureRight": "arc_furnes_side",
-        "textureBack": "arc_furnes_side",
-        "particleTexture": "",
-        "renderType": 0,
-        "customModelName": "Normal",
-        "luminance": 0,
-        "boundingBoxes": []
-      },
-      {
-        "texture": "arc_furnes_bottom",
-        "textureTop": "arc_furnes_top",
-        "textureLeft": "arc_furnes_side",
         "textureFront": "arc_furnes_activ",
         "textureRight": "arc_furnes_side",
         "textureBack": "arc_furnes_side",
         "particleTexture": "",
         "renderType": 0,
         "customModelName": "Normal",
-        "luminance": 15,
+        "luminance": 10,
         "boundingBoxes": []
       }
     ]

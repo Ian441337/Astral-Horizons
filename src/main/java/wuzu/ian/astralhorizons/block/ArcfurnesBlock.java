@@ -55,16 +55,14 @@ import java.util.Collections;
 import io.netty.buffer.Unpooled;
 
 public class ArcfurnesBlock extends Block implements EntityBlock {
-	public static final IntegerProperty BLOCKSTATE = IntegerProperty.create("blockstate", 0, 2);
+	public static final IntegerProperty BLOCKSTATE = IntegerProperty.create("blockstate", 0, 1);
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public ArcfurnesBlock() {
 		super(BlockBehaviour.Properties.of().mapColor(MapColor.RAW_IRON).sound(SoundType.METAL).strength(5f, 6f).lightLevel(s -> (new Object() {
 			public int getLightLevel() {
 				if (s.getValue(BLOCKSTATE) == 1)
-					return 0;
-				if (s.getValue(BLOCKSTATE) == 2)
-					return 15;
+					return 10;
 				return 0;
 			}
 		}.getLightLevel())).requiresCorrectToolForDrops());
