@@ -20,6 +20,7 @@ public class AstralHorizonsModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.astral_horizons.astral_horizons")).icon(() -> new ItemStack(AstralHorizonsModBlocks.ITEMCREATIVETAB.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(AstralHorizonsModBlocks.MOONSTONE.get().asItem());
 				tabData.accept(AstralHorizonsModBlocks.MOONSAND.get().asItem());
+				tabData.accept(AstralHorizonsModBlocks.MOONDEEPSLATE.get().asItem());
 			})
 
 					.build());

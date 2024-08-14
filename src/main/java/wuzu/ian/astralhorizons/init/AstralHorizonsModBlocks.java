@@ -6,6 +6,7 @@ package wuzu.ian.astralhorizons.init;
 
 import wuzu.ian.astralhorizons.block.MoonstoneBlock;
 import wuzu.ian.astralhorizons.block.MoonsandBlock;
+import wuzu.ian.astralhorizons.block.MoondeepslateBlock;
 import wuzu.ian.astralhorizons.block.ItemcreativetabBlock;
 import wuzu.ian.astralhorizons.AstralHorizonsMod;
 
@@ -20,4 +21,5 @@ public class AstralHorizonsModBlocks {
 	public static final RegistryObject<Block> MOONSTONE = REGISTRY.register("moonstone", () -> new MoonstoneBlock());
 	public static final RegistryObject<Block> MOONSAND = REGISTRY.register("moonsand", () -> new MoonsandBlock());
 	public static final RegistryObject<Block> ITEMCREATIVETAB = REGISTRY.register("itemcreativetab", () -> new ItemcreativetabBlock());
+	public static final RegistryObject<Block> MOONDEEPSLATE = REGISTRY.register("moondeepslate", () -> new MoondeepslateBlock());
 }

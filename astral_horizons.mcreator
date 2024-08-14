@@ -76,6 +76,23 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Moondeepslate",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moondeepslate",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/astralhorizons/block/MoondeepslateBlock.java",
+          "src/main/resources/assets/astral_horizons/blockstates/moondeepslate.json",
+          "src/main/resources/assets/astral_horizons/models/item/moondeepslate.json",
+          "src/main/resources/assets/astral_horizons/models/block/moondeepslate.json"
+        ]
+      },
+      "path": "~/moon"
     }
   ],
   "variable_elements": [],
@@ -85,7 +102,8 @@
       "block.astral_horizons.itemcreativetab": "itemcreativmap",
       "block.astral_horizons.moonsand": "Moon sand",
       "block.astral_horizons.moonstone": "Moonstone",
-      "item_group.astral_horizons.astral_horizons": "Astral Horizons"
+      "item_group.astral_horizons.astral_horizons": "Astral Horizons",
+      "block.astral_horizons.moondeepslate": "Moon deepslate"
     }
   },
   "foldersRoot": {
