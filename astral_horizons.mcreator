@@ -101,7 +101,7 @@
     "en_us": {
       "block.astral_horizons.itemcreativetab": "itemcreativmap",
       "block.astral_horizons.moonsand": "Moon sand",
-      "block.astral_horizons.moonstone": "Moonstone",
+      "block.astral_horizons.moonstone": "Moon stone",
       "item_group.astral_horizons.astral_horizons": "Astral Horizons",
       "block.astral_horizons.moondeepslate": "Moon deepslate"
     }
@@ -118,7 +118,7 @@
   "workspaceSettings": {
     "modid": "astral_horizons",
     "modName": "Astral Horizons",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "description": "Astral Horizons is an exciting Minecraft mod that takes players on a thrilling journey through the vast unknown of space. In this mod, you’ll find yourself stranded on distant planets and mysterious space stations, fighting for survival and uncovering the secrets of the universe. Explore new worlds, each with its own unique environments, creatures, and challenges. Gather resources, craft advanced technology, and build your own spacecraft to travel between planets. Beware of the dangers lurking in the dark corners of space, from hostile aliens to hazardous environments. Will you find your way back home, or will you be forever lost in space?",
     "author": "Ian1337",
     "websiteURL": "https://mcreator.net",

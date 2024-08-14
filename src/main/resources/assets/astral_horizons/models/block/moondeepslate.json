@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "astral_horizons:block/moon_stone",
-    "particle": "astral_horizons:block/moon_stone"
+    "all": "astral_horizons:block/moon_deepslate",
+    "particle": "astral_horizons:block/moon_deepslate"
   },
   "render_type": "solid"
 }
