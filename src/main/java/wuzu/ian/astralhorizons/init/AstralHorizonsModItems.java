@@ -4,7 +4,11 @@
  */
 package wuzu.ian.astralhorizons.init;
 
+import wuzu.ian.astralhorizons.item.SteelplattesItem;
 import wuzu.ian.astralhorizons.item.SteelingotItem;
+import wuzu.ian.astralhorizons.item.IronplatingItem;
+import wuzu.ian.astralhorizons.item.AluminiumplateItem;
+import wuzu.ian.astralhorizons.item.AluminiumingotItem;
 import wuzu.ian.astralhorizons.AstralHorizonsMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -23,6 +27,10 @@ public class AstralHorizonsModItems {
 	public static final RegistryObject<Item> MOONDEEPSLATE = block(AstralHorizonsModBlocks.MOONDEEPSLATE);
 	public static final RegistryObject<Item> ARCFURNES = block(AstralHorizonsModBlocks.ARCFURNES);
 	public static final RegistryObject<Item> STEELINGOT = REGISTRY.register("steelingot", () -> new SteelingotItem());
+	public static final RegistryObject<Item> IRONPLATTES = REGISTRY.register("ironplattes", () -> new IronplatingItem());
+	public static final RegistryObject<Item> STEELPLATTES = REGISTRY.register("steelplattes", () -> new SteelplattesItem());
+	public static final RegistryObject<Item> ALUMINIUMINGOT = REGISTRY.register("aluminiumingot", () -> new AluminiumingotItem());
+	public static final RegistryObject<Item> ALUMINIUMPLATE = REGISTRY.register("aluminiumplate", () -> new AluminiumplateItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

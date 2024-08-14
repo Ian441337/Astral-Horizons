@@ -247,6 +247,80 @@
         ]
       },
       "path": "~/maschins/arc furnece"
+    },
+    {
+      "name": "Arcfurnac",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcfurnac",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astral_horizons/recipes/arcfurnac.json"
+        ]
+      },
+      "path": "~/recepis"
+    },
+    {
+      "name": "Ironplating",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironplattes",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/astralhorizons/item/IronplatingItem.java",
+          "src/main/resources/assets/astral_horizons/models/item/ironplattes.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Steelplattes",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelplattes",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/astralhorizons/item/SteelplattesItem.java",
+          "src/main/resources/assets/astral_horizons/models/item/steelplattes.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Aluminiumingot",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminiumingot",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/astralhorizons/item/AluminiumingotItem.java",
+          "src/main/resources/assets/astral_horizons/models/item/aluminiumingot.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Aluminiumplate",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminiumplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astral_horizons/models/item/aluminiumplate.json",
+          "src/main/java/wuzu/ian/astralhorizons/item/AluminiumplateItem.java"
+        ]
+      },
+      "path": "~/items"
     }
   ],
   "variable_elements": [],
@@ -254,25 +328,33 @@
   "language_map": {
     "en_us": {
       "block.astral_horizons.itemcreativetab": "itemcreativmap",
+      "item.astral_horizons.steelplattes": "Steelplattes",
       "biome.astral_horizons.moonland": "Moonland",
+      "item.astral_horizons.ironplattes": "Iron platte",
+      "block.astral_horizons.arcfurnes": "Arc Furnes",
+      "item.astral_horizons.aluminiumingot": "Aluminiumingot",
+      "block.astral_horizons.moonstone": "Moon stone",
       "gui.astral_horizons.arc_furnace.label_empty": "Arc Furnase",
       "block.astral_horizons.moonsand": "Moon sand",
-      "block.astral_horizons.arcfurnes": "Arc Furnes",
-      "block.astral_horizons.moonstone": "Moon stone",
       "item_group.astral_horizons.astral_horizons": "Astral Horizons",
       "item.astral_horizons.steelingot": "Steelingot",
-      "block.astral_horizons.moondeepslate": "Moon deepslate"
+      "block.astral_horizons.moondeepslate": "Moon deepslate",
+      "item.astral_horizons.aluminiumplate": "Aluminiumplate"
     },
     "de_de": {
       "block.astral_horizons.itemcreativetab": "itemcreativmap",
+      "item.astral_horizons.steelplattes": "Steelplattes",
       "biome.astral_horizons.moonland": "Moonland",
+      "item.astral_horizons.ironplattes": "Iron platte",
+      "block.astral_horizons.arcfurnes": "Arcfurnes",
+      "item.astral_horizons.aluminiumingot": "Aluminiumingot",
+      "block.astral_horizons.moonstone": "Mond stein",
       "gui.astral_horizons.arc_furnace.label_empty": "Arc Furnase",
       "block.astral_horizons.moonsand": "Mond sand",
-      "block.astral_horizons.arcfurnes": "Arcfurnes",
-      "block.astral_horizons.moonstone": "Mond stein",
       "item_group.astral_horizons.astral_horizons": "Astral Horizons",
       "item.astral_horizons.steelingot": "Steelingot",
-      "block.astral_horizons.moondeepslate": "Mond tiefenschiefer"
+      "block.astral_horizons.moondeepslate": "Mond tiefenschiefer",
+      "item.astral_horizons.aluminiumplate": "Aluminiumplate"
     }
   },
   "foldersRoot": {

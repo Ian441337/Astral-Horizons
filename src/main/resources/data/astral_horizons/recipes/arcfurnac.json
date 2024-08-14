@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "furnace",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:iron_bars"
+    },
+    "c": {
+      "item": "minecraft:blast_furnace"
+    },
+    "d": {
+      "item": "minecraft:brick"
+    }
+  },
+  "result": {
+    "item": "astral_horizons:arcfurnes",
+    "count": 1
+  }
+}
