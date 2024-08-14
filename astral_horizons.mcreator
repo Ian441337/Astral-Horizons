@@ -1,15 +1,98 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Moon",
+      "type": "dimension",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astral_horizons/dimension/moon.json",
+          "src/main/java/wuzu/ian/astralhorizons/world/dimension/MoonDimension.java",
+          "src/main/resources/data/astral_horizons/dimension_type/moon.json"
+        ]
+      },
+      "path": "~/moon"
+    },
+    {
+      "name": "Moonstone",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moonstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astral_horizons/models/item/moonstone.json",
+          "src/main/resources/assets/astral_horizons/blockstates/moonstone.json",
+          "src/main/resources/assets/astral_horizons/models/block/moonstone.json",
+          "src/main/java/wuzu/ian/astralhorizons/block/MoonstoneBlock.java"
+        ]
+      },
+      "path": "~/moon"
+    },
+    {
+      "name": "Moonsand",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moonsand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astral_horizons/models/block/moonsand.json",
+          "src/main/resources/assets/astral_horizons/models/item/moonsand.json",
+          "src/main/java/wuzu/ian/astralhorizons/block/MoonsandBlock.java",
+          "src/main/resources/assets/astral_horizons/blockstates/moonsand.json"
+        ]
+      },
+      "path": "~/moon"
+    },
+    {
+      "name": "Itemcreativetab",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "itemcreativetab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/astral_horizons/models/item/itemcreativetab.json",
+          "src/main/resources/assets/astral_horizons/blockstates/itemcreativetab.json",
+          "src/main/java/wuzu/ian/astralhorizons/block/ItemcreativetabBlock.java",
+          "src/main/resources/assets/astral_horizons/models/block/itemcreativetab.json"
+        ]
+      }
+    },
+    {
+      "name": "AstralHorizons",
+      "type": "tab",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_horizons",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.astral_horizons.itemcreativetab": "Item.creative.tab",
+      "block.astral_horizons.moonsand": "Moon sand",
+      "block.astral_horizons.moonstone": "Moonstone",
+      "item_group.astral_horizons.astral_horizons": "Astral Horizons"
+    }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
       {
-        "name": "dimension",
+        "name": "moon",
         "children": []
       }
     ]

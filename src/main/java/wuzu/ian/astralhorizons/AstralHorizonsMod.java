@@ -13,6 +13,10 @@
  */
 package wuzu.ian.astralhorizons;
 
+import wuzu.ian.astralhorizons.init.AstralHorizonsModTabs;
+import wuzu.ian.astralhorizons.init.AstralHorizonsModItems;
+import wuzu.ian.astralhorizons.init.AstralHorizonsModBlocks;
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -46,6 +50,12 @@ public class AstralHorizonsMod {
 	public AstralHorizonsMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		AstralHorizonsModBlocks.REGISTRY.register(bus);
+
+		AstralHorizonsModItems.REGISTRY.register(bus);
+
+		AstralHorizonsModTabs.REGISTRY.register(bus);
 
 	}
 

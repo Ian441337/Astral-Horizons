@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "astral_horizons:block/earth_top",
+    "up": "astral_horizons:block/earth_top",
+    "north": "astral_horizons:block/earth_front",
+    "east": "astral_horizons:block/earth_left",
+    "south": "astral_horizons:block/earth_back",
+    "west": "astral_horizons:block/earth_right",
+    "particle": "astral_horizons:block/earth_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "astral_horizons:block/moon_sand",
+    "particle": "astral_horizons:block/moon_sand"
+  },
+  "render_type": "solid"
+}
