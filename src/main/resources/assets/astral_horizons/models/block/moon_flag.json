@@ -1,0 +1,9 @@
+{
+  "parent": "astral_horizons:custom/moonflag",
+  "textures": {
+    "all": "astral_horizons:block/moonflag",
+    "particle": "astral_horizons:block/moonflag",
+    "0": "astral_horizons:block/moonflag"
+  },
+  "render_type": "solid"
+}

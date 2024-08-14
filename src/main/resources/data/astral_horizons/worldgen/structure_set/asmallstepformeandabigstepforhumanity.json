@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "astral_horizons:asmallstepformeandabigstepforhumanity",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 10001,
+    "separation": 10000,
+    "salt": 668133233
+  }
+}
