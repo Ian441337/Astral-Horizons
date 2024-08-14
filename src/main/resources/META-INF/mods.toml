@@ -33,31 +33,7 @@ description="Astral Horizons is an exciting Minecraft mod that takes players on 
     ordering="NONE"
     side="BOTH"
 [[dependencies.astral_horizons]]
-    modId="just_zoom"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.astral_horizons]]
-    modId="jade"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.astral_horizons]]
     modId="geckolib"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.astral_horizons]]
-    modId="embeddium"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.astral_horizons]]
-    modId="oculus"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"

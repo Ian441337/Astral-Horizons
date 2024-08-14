@@ -62,57 +62,6 @@ def compileModsDir = 'compile-mods-1.20.1'
 
 
 repositories {
-   maven {
-       url = 'https://cursemaven.com/'
-   }
-}
-
-dependencies {
-	implementation fg.deobf('curse.maven:just-zoom-forge-561885:4641226')
-}
-
-minecraft {
-	runs {
-    	client {
-        	property 'mixin.env.remapRefMap', 'true'
-        	property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
-    	}
-    
-     	server {
-        	property 'mixin.env.remapRefMap', 'true'
-        	property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
-    	}
-     	data {
-        	property 'mixin.env.remapRefMap', 'true'
-        	property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
-    	}
-	}
-}
-
-
-minecraft {
-	runs {
-		client {
-			property 'mixin.env.remapRefMap', 'true'
-			property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
-		}	
-	}
-}  
-repositories {
-	maven {
-		url "https://www.cursemaven.com"
-		content {
-			includeGroup "curse.maven"
-		}
-	}
-}
-dependencies {
-	compileOnly fg.deobf("curse.maven:jade-324717:4986594")
-	runtimeOnly fg.deobf("curse.maven:jade-324717:4986594")
-}
-
-
-repositories {
   maven {
       url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
   }
@@ -138,65 +87,5 @@ minecraft {
     }
   }
 }
-
-
-
-repositories {
- maven {
-     url = 'https://cursemaven.com/'
- }
-}
-
-dependencies {
-  compileOnly fg.deobf("curse.maven:embeddium-908741:4984832")
-  runtimeOnly fg.deobf("curse.maven:embeddium-908741:4984832")
-}
-  minecraft {
-    runs {
-       client {
-          property 'mixin.env.remapRefMap', 'true'
-          property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
-      }
-  
-        server {
-          property 'mixin.env.remapRefMap', 'true'
-          property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
-      }
-        data {
-          property 'mixin.env.remapRefMap', 'true'
-          property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
-      }
-    }
-  }
-
-
-
-repositories {
- maven {
-     url = 'https://cursemaven.com/'
- }
-}
-
-dependencies {
-  compileOnly fg.deobf("curse.maven:oculus-581495:4767500")
-  runtimeOnly fg.deobf("curse.maven:oculus-581495:4767500")
-}
-  minecraft {
-    runs {
-       client {
-          property 'mixin.env.remapRefMap', 'true'
-          property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
-      }
-  
-        server {
-          property 'mixin.env.remapRefMap', 'true'
-          property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
-      }
-        data {
-          property 'mixin.env.remapRefMap', 'true'
-          property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
-      }
-    }
-  }
 
 

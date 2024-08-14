@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Item.creative.tab",
+    "name": "itemcreativmap",
     "specialInformation": {
       "fixedValue": []
     },
