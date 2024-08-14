@@ -1,0 +1,65 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="astral_horizons"
+version="1.0.0"
+displayName="Astral Horizons"
+displayURL="https://mcreator.net"
+credits="HI"
+authors="Ian1337"
+description="Astral Horizons is an exciting Minecraft mod that takes players on a thrilling journey through the vast unknown of space. In this mod, you’ll find yourself stranded on distant planets and mysterious space stations, fighting for survival and uncovering the secrets of the universe. Explore new worlds, each with its own unique environments, creatures, and challenges. Gather resources, craft advanced technology, and build your own spacecraft to travel between planets. Beware of the dangers lurking in the dark corners of space, from hostile aliens to hazardous environments. Will you find your way back home, or will you be forever lost in space?"
+
+[[dependencies.astral_horizons]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.astral_horizons]]
+    modId="world_edit"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.astral_horizons]]
+    modId="use_compiled_mods"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.astral_horizons]]
+    modId="just_zoom"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.astral_horizons]]
+    modId="jade"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.astral_horizons]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.astral_horizons]]
+    modId="embeddium"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.astral_horizons]]
+    modId="oculus"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

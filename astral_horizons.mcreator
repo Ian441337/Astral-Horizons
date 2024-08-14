@@ -1,0 +1,45 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "dimension",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "astral_horizons",
+    "modName": "Astral Horizons",
+    "version": "1.0.0",
+    "description": "Astral Horizons is an exciting Minecraft mod that takes players on a thrilling journey through the vast unknown of space. In this mod, you’ll find yourself stranded on distant planets and mysterious space stations, fighting for survival and uncovering the secrets of the universe. Explore new worlds, each with its own unique environments, creatures, and challenges. Gather resources, craft advanced technology, and build your own spacecraft to travel between planets. Beware of the dangers lurking in the dark corners of space, from hostile aliens to hazardous environments. Will you find your way back home, or will you be forever lost in space?",
+    "author": "Ian1337",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "world_edit",
+      "use_compiled_mods",
+      "just_zoom",
+      "jade",
+      "geckolib",
+      "embeddium",
+      "oculus"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "HI",
+    "modElementsPackage": "wuzu.ian.astralhorizons",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
