@@ -103,9 +103,9 @@
     "breakHarvestLevel": 2,
     "isBonemealable": false,
     "hasInventory": true,
-    "guiBoundTo": "Arcfurnesgui",
+    "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": true,
-    "inventorySize": 3,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
@@ -119,11 +119,8 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRedstoneOn": {
-      "name": "ArcfurnesRedstoneOn"
-    },
-    "onRedstoneOff": {
-      "name": "ArcfurnesRedstoneOff"
+    "onTickUpdate": {
+      "name": "ArcfurnesUpdateTick"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

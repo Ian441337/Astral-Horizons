@@ -141,21 +141,6 @@
       "path": "~/mashins"
     },
     {
-      "name": "Arcfurnesgui",
-      "type": "gui",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arcfurnesgui",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/astralhorizons/world/inventory/ArcfurnesguiMenu.java",
-          "src/main/java/wuzu/ian/astralhorizons/client/gui/ArcfurnesguiScreen.java"
-        ]
-      },
-      "path": "~/mashins"
-    },
-    {
       "name": "Arcfurnesonoff",
       "type": "blockstates",
       "sortid": 11,
@@ -171,47 +156,15 @@
       "path": "~/mashins"
     },
     {
-      "name": "ArcfurnesRedstoneOn",
+      "name": "ArcfurnesUpdateTick",
       "type": "procedure",
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "arcfurnes_redstone_on",
+      "registry_name": "arcfurnes_update_tick",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/astralhorizons/procedures/ArcfurnesRedstoneOnProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/mashins"
-    },
-    {
-      "name": "ArcfurnesRedstoneOff",
-      "type": "procedure",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arcfurnes_redstone_off",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/astralhorizons/procedures/ArcfurnesRedstoneOffProcedure.java"
+          "src/main/java/wuzu/ian/astralhorizons/procedures/ArcfurnesUpdateTickProcedure.java"
         ],
         "dependencies": [
           {
