@@ -14,8 +14,10 @@
 package wuzu.ian.astralhorizons;
 
 import wuzu.ian.astralhorizons.init.AstralHorizonsModTabs;
+import wuzu.ian.astralhorizons.init.AstralHorizonsModMenus;
 import wuzu.ian.astralhorizons.init.AstralHorizonsModItems;
 import wuzu.ian.astralhorizons.init.AstralHorizonsModBlocks;
+import wuzu.ian.astralhorizons.init.AstralHorizonsModBlockEntities;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -52,11 +54,12 @@ public class AstralHorizonsMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		AstralHorizonsModBlocks.REGISTRY.register(bus);
-
+		AstralHorizonsModBlockEntities.REGISTRY.register(bus);
 		AstralHorizonsModItems.REGISTRY.register(bus);
 
 		AstralHorizonsModTabs.REGISTRY.register(bus);
 
+		AstralHorizonsModMenus.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

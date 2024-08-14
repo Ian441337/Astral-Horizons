@@ -20,6 +20,7 @@ public class AstralHorizonsModItems {
 	public static final RegistryObject<Item> MOONSAND = block(AstralHorizonsModBlocks.MOONSAND);
 	public static final RegistryObject<Item> ITEMCREATIVETAB = block(AstralHorizonsModBlocks.ITEMCREATIVETAB);
 	public static final RegistryObject<Item> MOONDEEPSLATE = block(AstralHorizonsModBlocks.MOONDEEPSLATE);
+	public static final RegistryObject<Item> ARCFURNES = block(AstralHorizonsModBlocks.ARCFURNES);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

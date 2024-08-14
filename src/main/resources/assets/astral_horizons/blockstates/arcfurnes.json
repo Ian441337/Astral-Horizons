@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "astral_horizons:block/arcfurnes"
+    },
+    "facing=east": {
+      "model": "astral_horizons:block/arcfurnes",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "astral_horizons:block/arcfurnes",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "astral_horizons:block/arcfurnes",
+      "y": 270
+    }
+  }
+}

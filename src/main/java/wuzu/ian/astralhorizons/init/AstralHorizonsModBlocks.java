@@ -8,6 +8,7 @@ import wuzu.ian.astralhorizons.block.MoonstoneBlock;
 import wuzu.ian.astralhorizons.block.MoonsandBlock;
 import wuzu.ian.astralhorizons.block.MoondeepslateBlock;
 import wuzu.ian.astralhorizons.block.ItemcreativetabBlock;
+import wuzu.ian.astralhorizons.block.ArcfurnesBlock;
 import wuzu.ian.astralhorizons.AstralHorizonsMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -22,4 +23,5 @@ public class AstralHorizonsModBlocks {
 	public static final RegistryObject<Block> MOONSAND = REGISTRY.register("moonsand", () -> new MoonsandBlock());
 	public static final RegistryObject<Block> ITEMCREATIVETAB = REGISTRY.register("itemcreativetab", () -> new ItemcreativetabBlock());
 	public static final RegistryObject<Block> MOONDEEPSLATE = REGISTRY.register("moondeepslate", () -> new MoondeepslateBlock());
+	public static final RegistryObject<Block> ARCFURNES = REGISTRY.register("arcfurnes", () -> new ArcfurnesBlock());
 }
