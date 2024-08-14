@@ -16,7 +16,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class ArcfurnesUpdateTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		double productionticks = 0;
-		if (productionticks < 0) {
+		if (productionticks > 0) {
 			productionticks = productionticks + 1;
 		}
 		if (productionticks == 100) {
@@ -72,6 +72,7 @@ public class ArcfurnesUpdateTickProcedure {
 				return _retval.get();
 			}
 		}.getAmount(world, BlockPos.containing(x, y, z), 0) > 0 && productionticks == 0) {
+			productionticks = 1;
 			{
 				BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 				if (_ent != null) {
