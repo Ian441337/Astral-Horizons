@@ -1,17 +1,17 @@
 {
   "block.astral_horizons.itemcreativetab": "itemcreativmap",
-  "item.astral_horizons.steelplattes": "Steelplattes",
-  "biome.astral_horizons.moonland": "Moonland",
-  "item.astral_horizons.ironplattes": "Iron platte",
+  "item.astral_horizons.steelplattes": "Steel platte",
+  "biome.astral_horizons.moonland": "Moon land",
+  "item.astral_horizons.ironplattes": "Iron Platte",
   "gui.astral_horizons.spacetravel.button_earth": "earth",
   "block.astral_horizons.arcfurnes": "Arc Furnes",
-  "item.astral_horizons.aluminiumingot": "Aluminiumingot",
+  "item.astral_horizons.aluminiumingot": "Aluminium ingot",
   "block.astral_horizons.moonstone": "Moon stone",
   "gui.astral_horizons.arc_furnace.label_empty": "Arc Furnase",
   "block.astral_horizons.moonsand": "Moon sand",
   "gui.astral_horizons.spacetravel.button_moon": "moon",
   "item_group.astral_horizons.astral_horizons": "Astral Horizons",
-  "item.astral_horizons.steelingot": "Steelingot",
-  "block.astral_horizons.moondeepslate": "Moon deepslate",
-  "item.astral_horizons.aluminiumplate": "Aluminiumplate"
+  "item.astral_horizons.steelingot": "Steel ingot",
+  "block.astral_horizons.moondeepslate": "Moon deepslatte",
+  "item.astral_horizons.aluminiumplate": "Aluminium Platte"
 }
