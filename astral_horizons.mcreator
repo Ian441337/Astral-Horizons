@@ -377,6 +377,56 @@
         ]
       },
       "path": "~/tp"
+    },
+    {
+      "name": "Marsland",
+      "type": "biome",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marsland",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astral_horizons/worldgen/biome/marsland.json"
+        ]
+      },
+      "path": "~/mars"
+    },
+    {
+      "name": "Mars",
+      "type": "dimension",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mars",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astral_horizons/dimension/mars.json",
+          "src/main/resources/data/astral_horizons/dimension_type/mars.json",
+          "src/main/java/wuzu/ian/astralhorizons/world/dimension/MarsDimension.java"
+        ]
+      },
+      "path": "~/mars"
+    },
+    {
+      "name": "Marstp",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marstp",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/astralhorizons/procedures/MarstpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tp"
     }
   ],
   "variable_elements": [],
@@ -391,10 +441,12 @@
       "block.astral_horizons.arcfurnes": "Arc Furnes",
       "item.astral_horizons.aluminiumingot": "Aluminium ingot",
       "block.astral_horizons.moonstone": "Moon stone",
+      "gui.astral_horizons.spacetravel.button_mars": "mars",
       "gui.astral_horizons.arc_furnace.label_empty": "Arc Furnase",
       "block.astral_horizons.moonsand": "Moon sand",
       "gui.astral_horizons.spacetravel.button_moon": "moon",
       "item_group.astral_horizons.astral_horizons": "Astral Horizons",
+      "biome.astral_horizons.marsland": "Marsland",
       "item.astral_horizons.steelingot": "Steel ingot",
       "block.astral_horizons.moondeepslate": "Moon deepslatte",
       "item.astral_horizons.aluminiumplate": "Aluminium Platte"
@@ -408,10 +460,12 @@
       "block.astral_horizons.arcfurnes": "Arcfurnes",
       "item.astral_horizons.aluminiumingot": "Aluminium barren",
       "block.astral_horizons.moonstone": "Mond stein",
+      "gui.astral_horizons.spacetravel.button_mars": "mars",
       "gui.astral_horizons.arc_furnace.label_empty": "Arc Furnase",
       "block.astral_horizons.moonsand": "Mond sand",
       "gui.astral_horizons.spacetravel.button_moon": "Mond",
       "item_group.astral_horizons.astral_horizons": "Astral Horizons",
+      "biome.astral_horizons.marsland": "Marsland",
       "item.astral_horizons.steelingot": "Staal barren",
       "block.astral_horizons.moondeepslate": "Mond tiefenschiefer",
       "item.astral_horizons.aluminiumplate": "Aluminium Platte"
@@ -447,6 +501,10 @@
       },
       {
         "name": "tp",
+        "children": []
+      },
+      {
+        "name": "mars",
         "children": []
       }
     ]

@@ -4,15 +4,15 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "CUSTOM:Moonland"
+        "value": "CUSTOM:Marsland"
       }
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:Moonstone"
+      "value": "Blocks.SAND#1"
     },
     "fluidBlock": {
-      "value": "Blocks.AIR"
+      "value": "Blocks.HARDENED_CLAY"
     },
     "canRespawnHere": true,
     "hasFog": false,
@@ -32,7 +32,7 @@
       "value": "block.portal.ambient"
     },
     "enableIgniter": true,
-    "igniterName": "Moon Portal Igniter",
+    "igniterName": "Mars Portal Igniter",
     "specialInformation": {
       "fixedValue": []
     },

@@ -7,10 +7,12 @@
   "block.astral_horizons.arcfurnes": "Arcfurnes",
   "item.astral_horizons.aluminiumingot": "Aluminium barren",
   "block.astral_horizons.moonstone": "Mond stein",
+  "gui.astral_horizons.spacetravel.button_mars": "mars",
   "gui.astral_horizons.arc_furnace.label_empty": "Arc Furnase",
   "block.astral_horizons.moonsand": "Mond sand",
   "gui.astral_horizons.spacetravel.button_moon": "Mond",
   "item_group.astral_horizons.astral_horizons": "Astral Horizons",
+  "biome.astral_horizons.marsland": "Marsland",
   "item.astral_horizons.steelingot": "Staal barren",
   "block.astral_horizons.moondeepslate": "Mond tiefenschiefer",
   "item.astral_horizons.aluminiumplate": "Aluminium Platte"

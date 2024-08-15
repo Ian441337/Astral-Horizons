@@ -24,6 +24,7 @@ public class SpacetravelScreen extends AbstractContainerScreen<SpacetravelMenu> 
 	private final Player entity;
 	Button button_earth;
 	Button button_moon;
+	Button button_mars;
 
 	public SpacetravelScreen(SpacetravelMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -96,5 +97,13 @@ public class SpacetravelScreen extends AbstractContainerScreen<SpacetravelMenu> 
 		}).bounds(this.leftPos + 5, this.topPos + 29, 46, 20).build();
 		guistate.put("button:button_moon", button_moon);
 		this.addRenderableWidget(button_moon);
+		button_mars = Button.builder(Component.translatable("gui.astral_horizons.spacetravel.button_mars"), e -> {
+			if (true) {
+				AstralHorizonsMod.PACKET_HANDLER.sendToServer(new SpacetravelButtonMessage(2, x, y, z));
+				SpacetravelButtonMessage.handleButtonAction(entity, 2, x, y, z);
+			}
+		}).bounds(this.leftPos + 5, this.topPos + 51, 46, 20).build();
+		guistate.put("button:button_mars", button_mars);
+		this.addRenderableWidget(button_mars);
 	}
 }

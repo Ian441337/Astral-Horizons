@@ -3,6 +3,7 @@ package wuzu.ian.astralhorizons.network;
 
 import wuzu.ian.astralhorizons.world.inventory.SpacetravelMenu;
 import wuzu.ian.astralhorizons.procedures.MoontpProcedure;
+import wuzu.ian.astralhorizons.procedures.MarstpProcedure;
 import wuzu.ian.astralhorizons.procedures.EarthtpProcedure;
 import wuzu.ian.astralhorizons.AstralHorizonsMod;
 
@@ -70,6 +71,10 @@ public class SpacetravelButtonMessage {
 		if (buttonID == 1) {
 
 			MoontpProcedure.execute(entity);
+		}
+		if (buttonID == 2) {
+
+			MarstpProcedure.execute(entity);
 		}
 	}
 

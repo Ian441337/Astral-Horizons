@@ -39,6 +39,21 @@
           "x": 131,
           "y": 66
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_mars",
+          "text": "mars",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Marstp"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 131,
+          "y": 88
+        }
       }
     ],
     "gridSettings": {

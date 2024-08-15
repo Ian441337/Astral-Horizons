@@ -12,7 +12,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.DimensionSpecialEffects;
 
 @Mod.EventBusSubscriber
-public class MoonDimension {
+public class MarsDimension {
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 	public static class DimensionSpecialEffectsHandler {
 		@SubscribeEvent
@@ -29,7 +29,7 @@ public class MoonDimension {
 					return false;
 				}
 			};
-			event.register(new ResourceLocation("astral_horizons:moon"), customEffect);
+			event.register(new ResourceLocation("astral_horizons:mars"), customEffect);
 		}
 	}
 }
