@@ -19,9 +19,9 @@ import net.minecraft.world.level.block.Block;
 
 public class AstralHorizonsModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, AstralHorizonsMod.MODID);
-	public static final RegistryObject<Block> MOONSTONE = REGISTRY.register("moonstone", () -> new MoonstoneBlock());
-	public static final RegistryObject<Block> MOONSAND = REGISTRY.register("moonsand", () -> new MoonsandBlock());
-	public static final RegistryObject<Block> ITEMCREATIVETAB = REGISTRY.register("itemcreativetab", () -> new ItemcreativetabBlock());
-	public static final RegistryObject<Block> MOONDEEPSLATE = REGISTRY.register("moondeepslate", () -> new MoondeepslateBlock());
 	public static final RegistryObject<Block> ARCFURNES = REGISTRY.register("arcfurnes", () -> new ArcfurnesBlock());
+	public static final RegistryObject<Block> MOONSAND = REGISTRY.register("moonsand", () -> new MoonsandBlock());
+	public static final RegistryObject<Block> MOONSTONE = REGISTRY.register("moonstone", () -> new MoonstoneBlock());
+	public static final RegistryObject<Block> MOONDEEPSLATE = REGISTRY.register("moondeepslate", () -> new MoondeepslateBlock());
+	public static final RegistryObject<Block> ITEMCREATIVETAB = REGISTRY.register("itemcreativetab", () -> new ItemcreativetabBlock());
 }

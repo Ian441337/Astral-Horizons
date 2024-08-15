@@ -4,6 +4,7 @@
  */
 package wuzu.ian.astralhorizons.init;
 
+import wuzu.ian.astralhorizons.client.gui.SpacetravelScreen;
 import wuzu.ian.astralhorizons.client.gui.ArcFurnaceScreen;
 
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -19,6 +20,7 @@ public class AstralHorizonsModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(AstralHorizonsModMenus.ARC_FURNACE.get(), ArcFurnaceScreen::new);
+			MenuScreens.register(AstralHorizonsModMenus.SPACETRAVEL.get(), SpacetravelScreen::new);
 		});
 	}
 }

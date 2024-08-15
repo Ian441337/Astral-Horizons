@@ -18,15 +18,15 @@ public class AstralHorizonsModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, AstralHorizonsMod.MODID);
 	public static final RegistryObject<CreativeModeTab> ASTRAL_HORIZONS = REGISTRY.register("astral_horizons",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.astral_horizons.astral_horizons")).icon(() -> new ItemStack(AstralHorizonsModBlocks.ITEMCREATIVETAB.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(AstralHorizonsModBlocks.MOONSTONE.get().asItem());
-				tabData.accept(AstralHorizonsModBlocks.MOONSAND.get().asItem());
-				tabData.accept(AstralHorizonsModBlocks.MOONDEEPSLATE.get().asItem());
 				tabData.accept(AstralHorizonsModBlocks.ARCFURNES.get().asItem());
-				tabData.accept(AstralHorizonsModItems.STEELINGOT.get());
 				tabData.accept(AstralHorizonsModItems.IRONPLATTES.get());
+				tabData.accept(AstralHorizonsModItems.STEELINGOT.get());
 				tabData.accept(AstralHorizonsModItems.STEELPLATTES.get());
 				tabData.accept(AstralHorizonsModItems.ALUMINIUMINGOT.get());
 				tabData.accept(AstralHorizonsModItems.ALUMINIUMPLATE.get());
+				tabData.accept(AstralHorizonsModBlocks.MOONSAND.get().asItem());
+				tabData.accept(AstralHorizonsModBlocks.MOONSTONE.get().asItem());
+				tabData.accept(AstralHorizonsModBlocks.MOONDEEPSLATE.get().asItem());
 			})
 
 					.build());

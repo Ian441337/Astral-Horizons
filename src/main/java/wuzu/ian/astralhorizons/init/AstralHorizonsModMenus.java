@@ -4,6 +4,7 @@
  */
 package wuzu.ian.astralhorizons.init;
 
+import wuzu.ian.astralhorizons.world.inventory.SpacetravelMenu;
 import wuzu.ian.astralhorizons.world.inventory.ArcFurnaceMenu;
 import wuzu.ian.astralhorizons.AstralHorizonsMod;
 
@@ -17,4 +18,5 @@ import net.minecraft.world.inventory.MenuType;
 public class AstralHorizonsModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.MENU_TYPES, AstralHorizonsMod.MODID);
 	public static final RegistryObject<MenuType<ArcFurnaceMenu>> ARC_FURNACE = REGISTRY.register("arc_furnace", () -> IForgeMenuType.create(ArcFurnaceMenu::new));
+	public static final RegistryObject<MenuType<SpacetravelMenu>> SPACETRAVEL = REGISTRY.register("spacetravel", () -> IForgeMenuType.create(SpacetravelMenu::new));
 }

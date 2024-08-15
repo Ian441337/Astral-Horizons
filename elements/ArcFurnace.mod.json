@@ -23,7 +23,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": ""
+            "value": "Items.IRON_INGOT"
           },
           "disablePlacement": {
             "fixedValue": false
@@ -41,7 +41,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": ""
+            "value": "Items.COAL#0"
           },
           "disablePlacement": {
             "fixedValue": false

@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
+    "astral_horizons:arcfurnes",
     "astral_horizons:moonstone",
-    "astral_horizons:moondeepslate",
-    "astral_horizons:arcfurnes"
+    "astral_horizons:moondeepslate"
   ]
 }
