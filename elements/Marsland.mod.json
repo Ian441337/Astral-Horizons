@@ -10,7 +10,7 @@
       "value": "Blocks.HARDENED_CLAY"
     },
     "underwaterBlock": {
-      "value": "Blocks.SAND#1"
+      "value": "Blocks.STAINED_HARDENED_CLAY#1"
     },
     "ambientSound": {
       "value": ""

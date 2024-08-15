@@ -421,7 +421,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minecraft:red_sand"
+                            "Name": "minecraft:orange_terracotta"
                           }
                         }
                       ]

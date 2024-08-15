@@ -12,10 +12,6 @@
     "underwaterBlock": {
       "value": "CUSTOM:Moonstone"
     },
-    "airColor": {
-      "value": -13421773,
-      "falpha": 0.0
-    },
     "waterColor": {
       "value": -16777114,
       "falpha": 0.0
