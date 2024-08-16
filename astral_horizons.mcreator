@@ -142,20 +142,6 @@
       "path": "~/maschins/arc furnece"
     },
     {
-      "name": "Arcfurnesonoff",
-      "type": "blockstates",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arcfurnesonoff",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/astral_horizons/models/block/arcfurnesonoff_blockstate_0.json"
-        ]
-      },
-      "path": "~/maschins/arc furnece"
-    },
-    {
       "name": "ArcfurnesUpdateTick",
       "type": "procedure",
       "sortid": 16,
@@ -525,7 +511,6 @@
     "mcreatorDependencies": [
       "world_edit",
       "use_compiled_mods",
-      "geckolib",
       "jei"
     ],
     "currentGenerator": "forge-1.20.1",
