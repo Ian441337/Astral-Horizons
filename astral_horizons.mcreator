@@ -9,8 +9,8 @@
       "registry_name": "moon",
       "metadata": {
         "files": [
-          "src/main/resources/data/astral_horizons/dimension/moon.json",
           "src/main/java/wuzu/ian/astralhorizons/world/dimension/MoonDimension.java",
+          "src/main/resources/data/astral_horizons/dimension/moon.json",
           "src/main/resources/data/astral_horizons/dimension_type/moon.json"
         ]
       },
@@ -26,8 +26,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/astral_horizons/models/item/moonstone.json",
-          "src/main/resources/assets/astral_horizons/blockstates/moonstone.json",
           "src/main/resources/assets/astral_horizons/models/block/moonstone.json",
+          "src/main/resources/assets/astral_horizons/blockstates/moonstone.json",
           "src/main/java/wuzu/ian/astralhorizons/block/MoonstoneBlock.java"
         ]
       },
@@ -42,10 +42,10 @@
       "registry_name": "moonsand",
       "metadata": {
         "files": [
-          "src/main/resources/assets/astral_horizons/models/block/moonsand.json",
-          "src/main/resources/assets/astral_horizons/models/item/moonsand.json",
           "src/main/java/wuzu/ian/astralhorizons/block/MoonsandBlock.java",
-          "src/main/resources/assets/astral_horizons/blockstates/moonsand.json"
+          "src/main/resources/assets/astral_horizons/blockstates/moonsand.json",
+          "src/main/resources/assets/astral_horizons/models/block/moonsand.json",
+          "src/main/resources/assets/astral_horizons/models/item/moonsand.json"
         ]
       },
       "path": "~/moon"
@@ -59,11 +59,11 @@
       "registry_name": "itemcreativetab",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/astralhorizons/block/entity/ItemcreativetabBlockEntity.java",
-          "src/main/resources/assets/astral_horizons/models/item/itemcreativetab.json",
           "src/main/resources/assets/astral_horizons/blockstates/itemcreativetab.json",
+          "src/main/resources/assets/astral_horizons/models/block/itemcreativetab.json",
           "src/main/java/wuzu/ian/astralhorizons/block/ItemcreativetabBlock.java",
-          "src/main/resources/assets/astral_horizons/models/block/itemcreativetab.json"
+          "src/main/resources/assets/astral_horizons/models/item/itemcreativetab.json",
+          "src/main/java/wuzu/ian/astralhorizons/block/entity/ItemcreativetabBlockEntity.java"
         ]
       }
     },
@@ -88,9 +88,9 @@
       "metadata": {
         "files": [
           "src/main/java/wuzu/ian/astralhorizons/block/MoondeepslateBlock.java",
-          "src/main/resources/assets/astral_horizons/blockstates/moondeepslate.json",
+          "src/main/resources/assets/astral_horizons/models/block/moondeepslate.json",
           "src/main/resources/assets/astral_horizons/models/item/moondeepslate.json",
-          "src/main/resources/assets/astral_horizons/models/block/moondeepslate.json"
+          "src/main/resources/assets/astral_horizons/blockstates/moondeepslate.json"
         ]
       },
       "path": "~/moon"
@@ -132,8 +132,8 @@
       "registry_name": "arcfurnes",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/astralhorizons/block/ArcfurnesBlock.java",
           "src/main/java/wuzu/ian/astralhorizons/block/entity/ArcfurnesBlockEntity.java",
+          "src/main/java/wuzu/ian/astralhorizons/block/ArcfurnesBlock.java",
           "src/main/resources/assets/astral_horizons/blockstates/arcfurnes.json",
           "src/main/resources/assets/astral_horizons/models/block/arcfurnes.json",
           "src/main/resources/assets/astral_horizons/models/item/arcfurnes.json"
@@ -182,8 +182,8 @@
       "registry_name": "arc_furnace",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/astralhorizons/client/gui/ArcFurnaceScreen.java",
-          "src/main/java/wuzu/ian/astralhorizons/world/inventory/ArcFurnaceMenu.java"
+          "src/main/java/wuzu/ian/astralhorizons/world/inventory/ArcFurnaceMenu.java",
+          "src/main/java/wuzu/ian/astralhorizons/client/gui/ArcFurnaceScreen.java"
         ]
       },
       "path": "~/maschins/arc furnece"
@@ -197,8 +197,8 @@
       "registry_name": "steelingot",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/astralhorizons/item/SteelingotItem.java",
-          "src/main/resources/assets/astral_horizons/models/item/steelingot.json"
+          "src/main/resources/assets/astral_horizons/models/item/steelingot.json",
+          "src/main/java/wuzu/ian/astralhorizons/item/SteelingotItem.java"
         ]
       },
       "path": "~/items"
@@ -273,8 +273,8 @@
       "registry_name": "steelplattes",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/astralhorizons/item/SteelplattesItem.java",
-          "src/main/resources/assets/astral_horizons/models/item/steelplattes.json"
+          "src/main/resources/assets/astral_horizons/models/item/steelplattes.json",
+          "src/main/java/wuzu/ian/astralhorizons/item/SteelplattesItem.java"
         ]
       },
       "path": "~/items"
@@ -303,8 +303,8 @@
       "registry_name": "aluminiumplate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/astral_horizons/models/item/aluminiumplate.json",
-          "src/main/java/wuzu/ian/astralhorizons/item/AluminiumplateItem.java"
+          "src/main/java/wuzu/ian/astralhorizons/item/AluminiumplateItem.java",
+          "src/main/resources/assets/astral_horizons/models/item/aluminiumplate.json"
         ]
       },
       "path": "~/items"
@@ -338,9 +338,9 @@
       "registry_name": "spacetravel",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/astralhorizons/client/gui/SpacetravelScreen.java",
           "src/main/java/wuzu/ian/astralhorizons/world/inventory/SpacetravelMenu.java",
-          "src/main/java/wuzu/ian/astralhorizons/network/SpacetravelButtonMessage.java"
+          "src/main/java/wuzu/ian/astralhorizons/network/SpacetravelButtonMessage.java",
+          "src/main/java/wuzu/ian/astralhorizons/client/gui/SpacetravelScreen.java"
         ]
       }
     },
@@ -388,8 +388,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/astral_horizons/dimension/mars.json",
-          "src/main/resources/data/astral_horizons/dimension_type/mars.json",
-          "src/main/java/wuzu/ian/astralhorizons/world/dimension/MarsDimension.java"
+          "src/main/java/wuzu/ian/astralhorizons/world/dimension/MarsDimension.java",
+          "src/main/resources/data/astral_horizons/dimension_type/mars.json"
         ]
       },
       "path": "~/mars"
@@ -413,6 +413,76 @@
         ]
       },
       "path": "~/tp"
+    },
+    {
+      "name": "Theuniverse",
+      "type": "biome",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "theuniverse",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astral_horizons/worldgen/biome/theuniverse.json"
+        ]
+      },
+      "path": "~/spce"
+    },
+    {
+      "name": "Space",
+      "type": "dimension",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/astral_horizons/dimension_type/space.json",
+          "src/main/java/wuzu/ian/astralhorizons/world/dimension/SpaceDimension.java",
+          "src/main/resources/data/astral_horizons/dimension/space.json"
+        ]
+      },
+      "path": "~/spce"
+    },
+    {
+      "name": "Spacetp",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spacetp",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/astralhorizons/procedures/SpacetpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tp"
+    },
+    {
+      "name": "Spaceskybox",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spaceskybox",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/astralhorizons/procedures/SpaceskyboxProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/spce"
     }
   ],
   "variable_elements": [],
@@ -424,11 +494,13 @@
       "biome.astral_horizons.moonland": "Moonland",
       "item.astral_horizons.ironplattes": "Iron platte",
       "gui.astral_horizons.spacetravel.button_earth": "earth",
+      "biome.astral_horizons.theuniverse": "Theuniverse",
       "block.astral_horizons.arcfurnes": "Arc Furnes",
       "item.astral_horizons.aluminiumingot": "Aluminiumingot",
       "block.astral_horizons.moonstone": "Moon stone",
       "gui.astral_horizons.spacetravel.button_mars": "mars",
       "gui.astral_horizons.arc_furnace.label_empty": "Arc Furnase",
+      "gui.astral_horizons.spacetravel.button_space": "space",
       "block.astral_horizons.moonsand": "Moon sand",
       "gui.astral_horizons.spacetravel.button_moon": "moon",
       "item_group.astral_horizons.astral_horizons": "Astral Horizons",
@@ -443,11 +515,13 @@
       "biome.astral_horizons.moonland": "Moonland",
       "item.astral_horizons.ironplattes": "Eisen platte",
       "gui.astral_horizons.spacetravel.button_earth": "Erde",
+      "biome.astral_horizons.theuniverse": "Theuniverse",
       "block.astral_horizons.arcfurnes": "Arcfurnes",
       "item.astral_horizons.aluminiumingot": "Aluminium barren",
       "block.astral_horizons.moonstone": "Mond stein",
       "gui.astral_horizons.spacetravel.button_mars": "mars",
       "gui.astral_horizons.arc_furnace.label_empty": "Arc Furnase",
+      "gui.astral_horizons.spacetravel.button_space": "space",
       "block.astral_horizons.moonsand": "Mond sand",
       "gui.astral_horizons.spacetravel.button_moon": "Mond",
       "item_group.astral_horizons.astral_horizons": "Astral Horizons",
@@ -492,6 +566,10 @@
       {
         "name": "mars",
         "children": []
+      },
+      {
+        "name": "spce",
+        "children": []
       }
     ]
   },
@@ -510,7 +588,7 @@
     "dependants": [],
     "mcreatorDependencies": [
       "world_edit",
-      "use_compiled_mods",
+      "pehkui",
       "jei"
     ],
     "currentGenerator": "forge-1.20.1",

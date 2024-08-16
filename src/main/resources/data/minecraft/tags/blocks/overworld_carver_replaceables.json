@@ -4,6 +4,7 @@
     "astral_horizons:moonstone",
     "astral_horizons:moonsand",
     "minecraft:red_sand",
-    "minecraft:terracotta"
+    "minecraft:terracotta",
+    "minecraft:air"
   ]
 }

@@ -54,6 +54,21 @@
           "x": 131,
           "y": 88
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_space",
+          "text": "space",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Spacetp"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 186,
+          "y": 42
+        }
       }
     ],
     "gridSettings": {
