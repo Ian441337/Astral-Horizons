@@ -11,15 +11,6 @@
     "doesPauseGame": false,
     "components": [
       {
-        "type": "image",
-        "data": {
-          "image": "arc_furnes_gui_ilu.png",
-          "use1Xscale": true,
-          "x": 181,
-          "y": 50
-        }
-      },
-      {
         "type": "inputslot",
         "data": {
           "inputLimit": {

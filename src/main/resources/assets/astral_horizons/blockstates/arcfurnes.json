@@ -1,33 +1,18 @@
 {
   "variants": {
-    "facing=north,blockstate=0": {
+    "facing=north": {
       "model": "astral_horizons:block/arcfurnes"
     },
-    "facing=east,blockstate=0": {
+    "facing=east": {
       "model": "astral_horizons:block/arcfurnes",
       "y": 90
     },
-    "facing=south,blockstate=0": {
+    "facing=south": {
       "model": "astral_horizons:block/arcfurnes",
       "y": 180
     },
-    "facing=west,blockstate=0": {
+    "facing=west": {
       "model": "astral_horizons:block/arcfurnes",
-      "y": 270
-    },
-    "facing=north,blockstate=1": {
-      "model": "astral_horizons:block/arcfurnesonoff_blockstate_0"
-    },
-    "facing=east,blockstate=1": {
-      "model": "astral_horizons:block/arcfurnesonoff_blockstate_0",
-      "y": 90
-    },
-    "facing=south,blockstate=1": {
-      "model": "astral_horizons:block/arcfurnesonoff_blockstate_0",
-      "y": 180
-    },
-    "facing=west,blockstate=1": {
-      "model": "astral_horizons:block/arcfurnesonoff_blockstate_0",
       "y": 270
     }
   }
