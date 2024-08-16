@@ -12,7 +12,7 @@ import java.util.List;
 
 public class SteelingotItem extends Item {
 	public SteelingotItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override

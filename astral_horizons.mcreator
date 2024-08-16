@@ -379,36 +379,6 @@
       "path": "~/tp"
     },
     {
-      "name": "Marsland",
-      "type": "biome",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "marsland",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/astral_horizons/worldgen/biome/marsland.json"
-        ]
-      },
-      "path": "~/mars"
-    },
-    {
-      "name": "Mars",
-      "type": "dimension",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mars",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/astral_horizons/dimension/mars.json",
-          "src/main/resources/data/astral_horizons/dimension_type/mars.json",
-          "src/main/java/wuzu/ian/astralhorizons/world/dimension/MarsDimension.java"
-        ]
-      },
-      "path": "~/mars"
-    },
-    {
       "name": "Marstp",
       "type": "procedure",
       "sortid": 25,
@@ -427,6 +397,21 @@
         ]
       },
       "path": "~/tp"
+    },
+    {
+      "name": "Skybox",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skybox",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/astralhorizons/procedures/SkyboxProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/moon"
     }
   ],
   "variable_elements": [],
@@ -434,22 +419,21 @@
   "language_map": {
     "en_us": {
       "block.astral_horizons.itemcreativetab": "itemcreativmap",
-      "item.astral_horizons.steelplattes": "Steel platte",
+      "item.astral_horizons.steelplattes": "Steelplattes",
       "biome.astral_horizons.moonland": "Moonland",
-      "item.astral_horizons.ironplattes": "Iron Platte",
+      "item.astral_horizons.ironplattes": "Iron platte",
       "gui.astral_horizons.spacetravel.button_earth": "earth",
       "block.astral_horizons.arcfurnes": "Arc Furnes",
-      "item.astral_horizons.aluminiumingot": "Aluminium ingot",
+      "item.astral_horizons.aluminiumingot": "Aluminiumingot",
       "block.astral_horizons.moonstone": "Moon stone",
       "gui.astral_horizons.spacetravel.button_mars": "mars",
       "gui.astral_horizons.arc_furnace.label_empty": "Arc Furnase",
       "block.astral_horizons.moonsand": "Moon sand",
       "gui.astral_horizons.spacetravel.button_moon": "moon",
       "item_group.astral_horizons.astral_horizons": "Astral Horizons",
-      "biome.astral_horizons.marsland": "Marsland",
-      "item.astral_horizons.steelingot": "Steel ingot",
-      "block.astral_horizons.moondeepslate": "Moon deepslatte",
-      "item.astral_horizons.aluminiumplate": "Aluminium Platte"
+      "item.astral_horizons.steelingot": "Steelingot",
+      "block.astral_horizons.moondeepslate": "Moon deepslate",
+      "item.astral_horizons.aluminiumplate": "Aluminiumplate"
     },
     "de_de": {
       "block.astral_horizons.itemcreativetab": "itemcreativmap",
@@ -465,7 +449,6 @@
       "block.astral_horizons.moonsand": "Mond sand",
       "gui.astral_horizons.spacetravel.button_moon": "Mond",
       "item_group.astral_horizons.astral_horizons": "Astral Horizons",
-      "biome.astral_horizons.marsland": "Marsland",
       "item.astral_horizons.steelingot": "Staal barren",
       "block.astral_horizons.moondeepslate": "Mond tiefenschiefer",
       "item.astral_horizons.aluminiumplate": "Aluminium Platte"
@@ -525,6 +508,7 @@
     "mcreatorDependencies": [
       "world_edit",
       "use_compiled_mods",
+      "veil",
       "geckolib",
       "jei"
     ],

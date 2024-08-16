@@ -62,6 +62,19 @@ def compileModsDir = 'compile-mods-1.20.1'
 
 
 repositories {
+    maven {
+        url = 'https://maven.blamejared.com'
+    }
+}
+
+dependencies {
+    implementation fg.deobf("foundry.veil:Veil-forge-${project.minecraft_version}:${project.veil_version}") {
+        exclude group: "maven.modrinth"
+    }
+}
+
+
+repositories {
   maven {
       url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
   }

@@ -2,8 +2,6 @@
   "replace": false,
   "values": [
     "astral_horizons:moonstone",
-    "astral_horizons:moonsand",
-    "minecraft:red_sand",
-    "minecraft:terracotta"
+    "astral_horizons:moonsand"
   ]
 }

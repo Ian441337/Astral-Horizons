@@ -1,0 +1,32 @@
+package foundry.veil.forge.event;
+
+import foundry.veil.api.event.VeilRegisterBlockLayerEvent;
+import foundry.veil.api.event.VeilRegisterFixedBuffersEvent;
+import foundry.veil.api.event.VeilRenderLevelStageEvent;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraftforge.eventbus.api.Event;
+import net.minecraftforge.fml.event.IModBusEvent;
+
+import java.util.function.Consumer;
+
+/**
+ * <p>Fired to register block layers.</p>
+ * <p><strong>Note: This does not add fixed buffers automatically. To do that, also register the render type with {@link VeilRegisterFixedBuffersEvent}</strong></p>
+ *
+ * @author Ocelot
+ * @see VeilRegisterFixedBuffersEvent
+ * @see VeilRegisterBlockLayerEvent
+ */
+public class ForgeVeilRegisterBlockLayerEvent extends Event implements VeilRegisterBlockLayerEvent.Registry, IModBusEvent {
+
+    private final VeilRegisterBlockLayerEvent.Registry registry;
+
+    public ForgeVeilRegisterBlockLayerEvent(VeilRegisterBlockLayerEvent.Registry registry) {
+        this.registry = registry;
+    }
+
+    @Override
+    public void registerBlockLayer(RenderType renderType) {
+        this.registry.registerBlockLayer(renderType);
+    }
+}
