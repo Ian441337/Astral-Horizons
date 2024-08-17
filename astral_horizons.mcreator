@@ -14,7 +14,7 @@
           "src/main/resources/data/astral_horizons/dimension_type/moon.json"
         ]
       },
-      "path": "~/moon"
+      "path": "~/planets/moon"
     },
     {
       "name": "Moonstone",
@@ -31,7 +31,7 @@
           "src/main/java/wuzu/ian/astralhorizons/block/MoonstoneBlock.java"
         ]
       },
-      "path": "~/moon"
+      "path": "~/planets/moon"
     },
     {
       "name": "Moonsand",
@@ -48,7 +48,7 @@
           "src/main/resources/assets/astral_horizons/models/item/moonsand.json"
         ]
       },
-      "path": "~/moon"
+      "path": "~/planets/moon"
     },
     {
       "name": "Itemcreativetab",
@@ -93,7 +93,7 @@
           "src/main/resources/assets/astral_horizons/blockstates/moondeepslate.json"
         ]
       },
-      "path": "~/moon"
+      "path": "~/planets/moon"
     },
     {
       "name": "Moonsandtoglass",
@@ -121,7 +121,7 @@
           "src/main/resources/data/astral_horizons/worldgen/biome/moonland.json"
         ]
       },
-      "path": "~/moon"
+      "path": "~/planets/moon"
     },
     {
       "name": "Arcfurnes",
@@ -376,7 +376,7 @@
           "src/main/resources/data/astral_horizons/worldgen/biome/marsland.json"
         ]
       },
-      "path": "~/mars"
+      "path": "~/planets/mars"
     },
     {
       "name": "Mars",
@@ -392,7 +392,7 @@
           "src/main/resources/data/astral_horizons/dimension_type/mars.json"
         ]
       },
-      "path": "~/mars"
+      "path": "~/planets/mars"
     },
     {
       "name": "Marstp",
@@ -426,7 +426,7 @@
           "src/main/resources/data/astral_horizons/worldgen/biome/theuniverse.json"
         ]
       },
-      "path": "~/spce"
+      "path": "~/planets/spce"
     },
     {
       "name": "Space",
@@ -442,7 +442,7 @@
           "src/main/resources/data/astral_horizons/dimension/space.json"
         ]
       },
-      "path": "~/spce"
+      "path": "~/planets/spce"
     },
     {
       "name": "Spacetp",
@@ -465,15 +465,15 @@
       "path": "~/tp"
     },
     {
-      "name": "Spaceskybox",
+      "name": "Skyboxspace",
       "type": "procedure",
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "spaceskybox",
+      "registry_name": "skyboxspace",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/astralhorizons/procedures/SpaceskyboxProcedure.java"
+          "src/main/java/wuzu/ian/astralhorizons/procedures/SkyboxspaceProcedure.java"
         ],
         "dependencies": [
           {
@@ -482,7 +482,27 @@
           }
         ]
       },
-      "path": "~/spce"
+      "path": "~/planets/spce"
+    },
+    {
+      "name": "Earth",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/astralhorizons/procedures/EarthProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/planets/spce"
     }
   ],
   "variable_elements": [],
@@ -535,10 +555,6 @@
     "name": "~",
     "children": [
       {
-        "name": "moon",
-        "children": []
-      },
-      {
         "name": "recepis",
         "children": []
       },
@@ -564,12 +580,21 @@
         "children": []
       },
       {
-        "name": "mars",
-        "children": []
-      },
-      {
-        "name": "spce",
-        "children": []
+        "name": "planets",
+        "children": [
+          {
+            "name": "moon",
+            "children": []
+          },
+          {
+            "name": "spce",
+            "children": []
+          },
+          {
+            "name": "mars",
+            "children": []
+          }
+        ]
       }
     ]
   },

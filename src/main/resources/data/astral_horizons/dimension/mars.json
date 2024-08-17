@@ -27,7 +27,7 @@
       "aquifers_enabled": true,
       "ore_veins_enabled": true,
       "default_block": {
-        "Name": "minecraft:red_sand"
+        "Name": "minecraft:terracotta"
       },
       "default_fluid": {
         "Name": "minecraft:terracotta"
