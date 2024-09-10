@@ -12,14 +12,6 @@
     "underwaterBlock": {
       "value": "CUSTOM:Moonstone"
     },
-    "waterColor": {
-      "value": -16777114,
-      "falpha": 0.0
-    },
-    "waterFogColor": {
-      "value": -16777114,
-      "falpha": 0.0
-    },
     "ambientSound": {
       "value": ""
     },
@@ -39,9 +31,9 @@
     },
     "particlesProbability": 0.5,
     "rainingPossibility": 0.5,
-    "temperature": 0.2,
+    "temperature": 1.5,
     "spawnBiome": false,
-    "spawnInCaves": true,
+    "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
       "min": -1.5,
@@ -81,8 +73,7 @@
     },
     "defaultFeatures": [
       "Caves",
-      "Ores",
-      "AmethystGeodes"
+      "Ores"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,

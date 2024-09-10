@@ -3,7 +3,8 @@
   "values": [
     "astral_horizons:moonstone",
     "astral_horizons:moonsand",
+    "minecraft:terracotta",
     "minecraft:red_sand",
-    "minecraft:terracotta"
+    "minecraft:air"
   ]
 }

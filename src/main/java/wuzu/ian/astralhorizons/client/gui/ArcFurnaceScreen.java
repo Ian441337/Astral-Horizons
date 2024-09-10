@@ -46,6 +46,9 @@ public class ArcFurnaceScreen extends AbstractContainerScreen<ArcFurnaceMenu> {
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
+		guiGraphics.blit(new ResourceLocation("astral_horizons:textures/screens/arc_furnes_gui_ilu.png"), this.leftPos + 55, this.topPos + 20, 0, 0, 64, 64, 64, 64);
+
 		RenderSystem.disableBlend();
 	}
 

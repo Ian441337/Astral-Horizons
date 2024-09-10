@@ -1,0 +1,12 @@
+{
+  "_fv": 57,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "0",
+    "keyBindingName": "Teleport between the space (Creative Only)",
+    "keyBindingCategoryKey": "creative",
+    "onKeyPressed": {
+      "name": "TpspaceOnKeyPressed"
+    }
+  }
+}

@@ -1,14 +1,14 @@
 {
   "has_precipitation": true,
-  "temperature": 0.2,
+  "temperature": 1.5,
   "downfall": 0.5,
   "effects": {
     "foliage_color": 10387789,
     "grass_color": 9470285,
     "sky_color": 7972607,
     "fog_color": 12638463,
-    "water_color": -16777114,
-    "water_fog_color": -16777114
+    "water_color": 4159204,
+    "water_fog_color": 329011
   },
   "spawners": {
     "monster": [],
@@ -33,9 +33,7 @@
     [
       "minecraft:lake_lava_underground"
     ],
-    [
-      "minecraft:amethyst_geode"
-    ],
+    [],
     [],
     [],
     [],

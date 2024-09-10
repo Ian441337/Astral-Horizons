@@ -21,25 +21,7 @@ description="Astral Horizons is an exciting Minecraft mod that takes players on 
 
 
 [[dependencies.astral_horizons]]
-    modId="world_edit"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.astral_horizons]]
     modId="use_compiled_mods"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.astral_horizons]]
-    modId="geckolib"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.astral_horizons]]
-    modId="jei"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"

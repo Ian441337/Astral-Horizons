@@ -9,11 +9,14 @@
   "block.astral_horizons.moonstone": "Moon stone",
   "gui.astral_horizons.spacetravel.button_mars": "mars",
   "gui.astral_horizons.arc_furnace.label_empty": "Arc Furnase",
+  "gui.astral_horizons.spacetravel.button_space": "space",
   "block.astral_horizons.moonsand": "Moon sand",
   "gui.astral_horizons.spacetravel.button_moon": "moon",
   "item_group.astral_horizons.astral_horizons": "Astral Horizons",
   "biome.astral_horizons.marsland": "Marsland",
+  "key.astral_horizons.tpspace": "Teleport between the space (Creative Only)",
   "item.astral_horizons.steelingot": "Steelingot",
   "block.astral_horizons.moondeepslate": "Moon deepslate",
-  "item.astral_horizons.aluminiumplate": "Aluminiumplate"
+  "item.astral_horizons.aluminiumplate": "Aluminiumplate",
+  "biome.astral_horizons.the_universe": "The Universe"
 }

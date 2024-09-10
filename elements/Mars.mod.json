@@ -9,7 +9,7 @@
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "Blocks.SAND#1"
+      "value": "Blocks.HARDENED_CLAY"
     },
     "fluidBlock": {
       "value": "Blocks.HARDENED_CLAY"
